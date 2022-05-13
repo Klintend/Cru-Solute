@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0px 42px;
+}
+nav{
+    background-color: black;
+    padding: 20px;
+    box-shadow:black 3px 3px 5px;
+}
+a{
+    text-decoration: none;
+    color: rgb(247, 233, 108);
+    font-family: Arial;
+    font-size: 15px;
+    transition: ease-in-out 0.4s;
+}
+a:hover{
+    border-bottom: honeydew 2px solid;
+    font-weight: bold;
+    
+}
+h3{
+    color: khaki;
+}
+ul{
+    display: flex;
+    color:whitesmoke;
+}
+li{
+    color:orange;
+    padding: 0px 20px;
+    list-style: none;
+    
+}
+.nav-list{
+    display: flex;
+    justify-content:space-between;
+}
+.sol{
+    color: white;
+}
+header{
+    height: 70vh;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-img{
+    width: 1600px;
+    height: 400px;
+    margin-top: 50px;
+}
+.hero-section{
+    text-align: center;
+    padding: 10px;
+    margin-top: 155px;
+    
+}
+.hero-section h2{
+        font-size: 45px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 0px 40px;
+        letter-spacing: 2px;
+}
+.hero-section p{
+    padding: 10px;
+    line-height: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1.2px;
+}
+.btn-hero{
+    margin-top: 25px;
+    padding: 8px;
+    background-color: rgb(231, 214, 56);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: ease 0.4s;
+}
+.icon{
+    color: white;
+}
+.btn-hero:hover{
+        transition: ease 0.3s;
+        background-color: rgb(187, 171, 32);
+
+}
