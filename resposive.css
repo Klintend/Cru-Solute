@@ -1,0 +1,24 @@
+@media screen and (max-width: 500px){
+    .nav-list{
+        display: block;
+    }
+    .nav-list h3{
+        font-size: 15px;
+        text-align: center;
+    }
+    .nav-list ul li a{
+        font-size: 12px;
+
+    }
+    .nav-list ul{
+        justify-content: center;
+        display: flex;
+        padding: 5px 4px;
+    }
+    header{
+        display: block;
+    }
+    .hero-img img{
+        width: 35%;
+    }
+}
