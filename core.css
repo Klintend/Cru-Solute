@@ -83,8 +83,11 @@ header{
     font-size: 15px;
     transition: ease 0.4s;
 }
-.icon{
-    color: white;
+.fa-brands{
+    color: blue;
+}
+.fab{
+    color: blue;
 }
 .btn-hero:hover{
         transition: ease 0.3s;
